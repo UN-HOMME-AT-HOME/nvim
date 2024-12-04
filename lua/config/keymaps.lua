@@ -22,12 +22,15 @@ vim.keymap.set("n", "<leader>c", function()
 	return "<C-w>c"
 end, { expr = true })
 
+-- record macro for G$a<CR> since that keymap is slow
 vim.keymap.set("n", "<leader>g", function()
-	return "Gi<CR>"
+	return "@g"
 end, { expr = true })
 
 vim.keymap.set("n", "<leader>w", function()
 	return ":w<CR>"
 end, { expr = true })
 
--- todo make :hs do CWs
+vim.keymap.set("n", "<leader><ESC>", function()
+	return ":qa!<CR>"
+end, { expr = true })
