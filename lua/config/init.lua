@@ -28,4 +28,5 @@ local opts = {
 require("lazy").setup(plugins, opts)
 
 vim.o.background = "dark"
-vim.cmd([[colorscheme moonfly]])
+vim.cmd([[syntax on]])
+vim.cmd([[colorscheme onedark]])
