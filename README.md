@@ -20,8 +20,11 @@ depth Neovim tutorial on Youtube.
 [mason](https://github.com/williamboman/mason.nvim) - LSP installation management  
 [noice](https://github.com/folke/noice.nvim) - vim commandline ui  
 [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - auto-completion support  
-[nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - file tree explorer   
-[monokai](https://github.com/tanvirtin/monokai.nvim) - monokai colorscheme   
-[moonfly](https://github.com/bluz71/vim-moonfly-colors) - moonfly colorscheme   
+[nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - file tree explorer  
+[monokai](https://github.com/tanvirtin/monokai.nvim) - monokai colorscheme  
+[moonfly](https://github.com/bluz71/vim-moonfly-colors) - moonfly colorscheme  
 [telescope](https://github.com/nvim-telescope/telescope.nvim) - fuzzy finder
 
+## Updates
+
+changed tsserver to ts_ls, may need to run :TSUpdate then reload
