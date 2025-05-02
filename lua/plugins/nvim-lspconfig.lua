@@ -74,7 +74,7 @@ local config = function()
     -- you need to specify the executable command mannualy for elixir-ls
     filetypes = { "elixir", "eelixir", "heex", "surface" },
     --root_dir = lspconfig.util.root_pattern("mix.exs", ".git") or vim.loop.os_homedir(),
-    cmd = { "/Users/jlhomme/newcode/elixir-ls/release/language_server.sh" },
+    cmd = { "~/newcode/elixir-ls/release/language_server.sh" },
 
     capabilities = capabilities,
     on_attach = on_attach,
