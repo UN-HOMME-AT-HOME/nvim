@@ -26,11 +26,5 @@ local opts = {
 }
 
 require("lazy").setup(plugins, opts)
-
-vim.o.background = "dark"
-vim.g.sonokai_enable_italic = true
-vim.g.sonokai_style = 'espresso'
-
-
+vim.cmd("colorscheme modus-vivendi") -- Dark
 vim.cmd([[syntax on]])
-vim.cmd([[colorscheme sonokai]]) 
