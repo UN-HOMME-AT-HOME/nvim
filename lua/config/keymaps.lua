@@ -31,6 +31,11 @@ vim.keymap.set("n", "<leader>w", function()
 	return ":w<CR>"
 end, { expr = true })
 
-vim.keymap.set("n", "<leader><ESC>", function()
-	return ":qa!<CR>"
+vim.keymap.set("n", "<C-b>c", function()
+	return ":%bd!|e#"
 end, { expr = true })
+
+--  ---Line-comment toggle keymap
+-- line = 'gcc',
+-- ---Block-comment toggle keymap
+-- block = 'gbc',
