@@ -9,6 +9,9 @@ return {
 			finder_action_keys = {
 				open = "<CR>",
 			},
+      lightbulb = {
+        enable = false,
+      },
 			-- use enter to open file with definition preview
 			definition_action_keys = {
 				edit = "<CR>",
