@@ -26,5 +26,5 @@ local opts = {
 }
 
 require("lazy").setup(plugins, opts)
-vim.cmd("colorscheme modus-vivendi") -- Dark
+vim.cmd("colorscheme embark") 
 vim.cmd([[syntax on]])
